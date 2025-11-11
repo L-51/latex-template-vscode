@@ -27,6 +27,7 @@ Un tutorial junto con una plantilla de **LaTeX para Visual Studio Code (Linux)**
 | 🇪🇸 Español | [README.es.md](README.es.md) | Documentación completa en español |
 
 <!--==Features===========================================================================================-->
+
 ## Features/Características
 
 ✅ Preconfigured for **LaTeX Workshop** / Preconfigurada para **LaTeX Workshop**
