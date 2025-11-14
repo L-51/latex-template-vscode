@@ -30,7 +30,7 @@ Un tutorial junto con una plantilla de **LaTeX para Visual Studio Code (Linux)**
 
 ## Features / Características
 
-### English
+### Englishú
 ✅ Preconfigured for **LaTeX Workshop**  
 ✅ Works fully **offline (local compilation)**  
 ✅ Modular folder structure (config, sections, bibliography, etc.)  
@@ -43,7 +43,11 @@ Un tutorial junto con una plantilla de **LaTeX para Visual Studio Code (Linux)**
 ✅ Estructura de carpetas modular (config, secciones, bibliografía, etc.)  
 ✅ Guía de configuración **paso a paso**  
 ✅ Compatible con **sistemas Linux**
+<!--==Contribution=======================================================================================-->
+## Contribution
+
 
 <!--==Licence============================================================================================-->
 ## Licence
-This project is licensed under the [MIT License](./LICENSE)
+This project is licensed under the [MIT License](./LICENSE)  
+Este proyecto está licenciado bajo la [Licencia MIT](./LICENSE)
