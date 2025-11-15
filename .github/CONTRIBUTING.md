@@ -23,6 +23,10 @@ Clone it using:
 ```bash
 git clone https://github.com/<your-username>/latex-vscode-template.git
 ```
+or  
+```bash
+  git clone git@github.com:L-51/Plantilla-LaTex-para-VSCode.git
+```
 Then change into the project directory:
 ```bash
 cd latex-vscode-template
