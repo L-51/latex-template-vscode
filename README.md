@@ -59,4 +59,4 @@ Por favor, lean las [pautas de contribución](.github/CONTRIBUTING.es.md) antes 
 
 ---
 <!--==License============================================================================================-->
-<p><em>This project is licensed under the  <a href="https://opensource.org/licenses/MIT" target="_blank">MIT</a></p>
+<p><em>This project is licensed under the [MIT](./LICENSE)</p>
