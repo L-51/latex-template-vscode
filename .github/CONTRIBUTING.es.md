@@ -1,1 +1,11 @@
+# Pautas para contribución
+¡Agradezco por su interés en contribuir!  
+Este proyecto ofrece una **plantilla modular y un tutorial de configuración de LaTex para Visual Studio Code**.  
+Las contribuciones son bienvenidas, mejora de la estructura de la plantilla, añadir documentación, arreglar problemas, o mejorar el tutorial.  
+
+---
+## Cómo contribuir
+### 1. Fork del repositorio
+<img align="right" width="300" src="https://firstcontributions.github.io/assets/Readme/fork.png" alt="fork the repository" />
+Crea un fork del repositorio
 
