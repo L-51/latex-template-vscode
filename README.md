@@ -54,12 +54,10 @@ Please read the [contribution guidelines](.github/CONTRIBUTING.md) before submit
 ¡Las contribuciones son bienvenidas!  
 Por favor, lean las [pautas de contribución](.github/CONTRIBUTING.es.md) antes de enviar un pull request.
 
-
-<!--==License============================================================================================-->
-## License / Licencia
-This project is licensed under the [MIT License](./LICENSE)  
-Este proyecto está licenciado bajo la [Licencia MIT](./LICENSE)
-
 ---
 > If you feel this repository useful, don't forget to leave a ⭐!  
 > Si te resulta útil este repositorio, ¡no olvides dejar una ⭐!
+
+<!--==License============================================================================================-->
+<hr style="border: 1px solid #ccc;">
+<p style="font-size: 0.8em;">This project is licensed under the  <a href="https://opensource.org/licenses/MIT" target="_blank">MIT</a>.</p>
