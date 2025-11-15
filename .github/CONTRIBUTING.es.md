@@ -5,7 +5,7 @@ Las contribuciones son bienvenidas, mejora de la estructura de la plantilla, añ
 
 ---
 ## Cómo contribuir
-### 1. Fork del repositorio
 <img align="right" width="300" src="https://firstcontributions.github.io/assets/Readme/fork.png" alt="fork the repository" />
-Crea un fork del repositorio
+### 1. Fork del repositorio
+Crea un fork del repositorio, dandole al botón
 
