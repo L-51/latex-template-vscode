@@ -47,7 +47,8 @@ Ante de usar la plantilla, asegúrate de tener:
 Sigue las instrucciones oficiales:
 [Instalar VSC para Linux](https://code.visualstudio.com/docs/setup/linux)
 
-<img align="right" width="300" src="./.github/assets/Extension.png" alt="Extension" />
+<img align="right" width="100" src="./.github/assets/Extension.png" alt="Extension" />
+
 ### 2. Extensión LaTeX Workshop
 Instálala desde VS Code:
 `Ctrl + Shift + X` -> busca LaTeX Workshop -> Instalar
