@@ -15,6 +15,10 @@ Crea un fork del repositorio, dandole al botón que se encuentra en la zona supe
 Ahora clonas el repositorio que hiciste *fork*, no el repositorio main.  
 Ve a tu cuenta de GitHub, localiza el repositorio, pulsa el **botón de code** y luego en la parte de copiar el url, ahora ya puedes clonar el repositorio
 
-<pre>
+```bash
   git clone https://github.com/<your-username>/Plantilla-LaTex-para-VSCode.git
-</pre>
+```
+Para navegar y acceder al respositorio clonado, simplementes realice el siguiente comando:
+```bash
+  cd Plantilla-LaTex-para-VSCode
+```
