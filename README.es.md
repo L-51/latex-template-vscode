@@ -20,12 +20,13 @@ Ideal para estudiantes, docentes, investigadores o cualquier persona que quiera 
     - [2. Extensión LaTeX Workshop](#2-extensión-latex-workshop)
     - [3. Paquetes de LaTeX en Linux](#3-paquetes-de-latex-en-linux)
   - [Estructura de la plantilla](#estructura-de-la-plantilla)
-  - [Tips(Consejos)](#tipsconsejos)
-  - [Conectar con el repositorio Git](#conectar-con-el-repositorio-git)
-  - [Organización del proyecto (Hay texto de ejemplo en los ficheros)](#organización-del-proyecto-hay-texto-de-ejemplo-en-los-ficheros)
+  - [Consejos básicos](#consejos-básicos)
+  - [Consejos avanzados (opcional)](#consejos-avanzados-opcional)
+  - [Conectar con Git y GitHub](#conectar-con-git-y-github)
+  - [Organización del proyecto](#organización-del-proyecto)
   - [⚠️Recomendación final:](#️recomendación-final)
-  - [Colaboración](#colaboración)
-  - [Recursos adicionales:](#recursos-adicionales)
+  - [Contribución](#contribución)
+  - [Recursos adicionales](#recursos-adicionales)
 
 <!--==Inicio Rápido=========================================================================================-->
 ## Inicio Rápido
@@ -58,7 +59,7 @@ Instálala desde VS Code:
 
 <img alight="left" width="220" src="./.github/assets/LaTeX_Extension.png" alt="Extension" />
 
-<img align="right" src="./.github/assets/Terminal.png" alt="Terminal" width="305"/>
+<img align="right" src="./.github/assets/Terminal.png" alt="Terminal" width="250"/>
 
 ### 3. Paquetes de LaTeX en Linux
 
@@ -74,26 +75,29 @@ Se puede usar el atajo `Ctrl + '` para abrir el terminal o desde el icono intera
 <!--========================================================================================================-->
 ## Estructura de la plantilla
 ```bash
-📁template
-├── 📁bibliography
-│   └── 📚ref.bib
-├── 📁config
-│   ├── 📄packages.tex
-│   └── ⚙️settings.tex
-├── 📄.gitignore
-├── 📁images
-│   └── 🖼️Example.png
-├── main.tex
-├── 📁sections
-│   ├── 📄section_1.tex
-│   ├── 📄section_2.tex
-│   └── 📄section_3.tex
-└── 📁title_pages
-    └── 📄example_title_page.tex
+📁Plantilla-de-LaTeX-para-VSCode
+├── 📄README.md
+└── 📁template
+    ├── 📁bibliografia
+    │   └── 📚ref.bib
+    ├── 📁config
+    │   ├── ⚙️settings.tex
+    │   └── 📄packages.tex
+    ├── 📁ficheros
+    ├── 📄.gitignore
+    ├── 📁images
+    │   └── 🖼️Example.png
+    ├── 📄main.tex
+    ├── 📁portadas
+    │   └── 📄portada_ejemplo.tex
+    └── 📁secciones
+        ├── 📄ejercicio_1.tex
+        ├── 📄ejercicio_2.tex
+        └── 📄ejercicio_3.tex
 ```
 
 <!--========================================================================================================-->
-## Tips(Consejos)
+## Consejos básicos
 - Al tener cuenta de estudiante, el **Copilot de Github** se puede usar gratuitamente.
   
   En caso de querer usarlo, instalar **Github Copilot** y **Github Copilot Chat** en el apartado de extensiones como previamente se indicó.
@@ -145,6 +149,8 @@ Se puede usar el atajo `Ctrl + '` para abrir el terminal o desde el icono intera
     <img src="./.github/assets/Settings_json.png" alt="settings.json" width="900"/>
     <p><em>settings.json tras introducir las reglas</em></p>
   </p>
+
+## Consejos avanzados (opcional)
 
 - **(Opcional 1)** Para configurar la localización de los archivos de salida de compilación, pulse `Ctrl + ,` para abrir configuración y busque `Latex: Out Dir`, cambie la salida por una carpeta o una ruta donde quieras preservar los archivos. Una vez compilado el proyecto la salida se verá reflejado en dicha ruta(se usó [./build](https://github.com/L-51/Plantilla-de-LaTex-para-Visual-Studio-Code-VSCODE/tree/main/template/build) de ejemplo). Para esta parte es recomendable que se use un fichero [`.gitignore`](https://github.com/L-51/Plantilla-de-LaTex-para-Visual-Studio-Code-VSCODE/blob/main/template/.gitignore) para que no se guarde archivos que no le interese en el repositorio. En comparación a **Opcional 2** como se indica abajo, hay una carpeta de más, pero a la hora de compilación es más **rápido** ya que mantiene los archivos de compilación, aunque ocupe más espacio
   <p>
@@ -221,7 +227,7 @@ Se puede usar el atajo `Ctrl + '` para abrir el terminal o desde el icono intera
   </p>
 <!--========================================================================================================-->
 
-## Conectar con el repositorio Git
+## Conectar con Git y GitHub
 1. Instalación de **Git**: si no lo tenían previamente instalado, `sudo apt install git -y`
 2. Configurar tu usuario y correo:<br>
    `git config --global user.name "Tu Nombre"` <br>
@@ -245,7 +251,7 @@ Se puede usar el atajo `Ctrl + '` para abrir el terminal o desde el icono intera
 </p>
 <!--========================================================================================================-->
 
-## Organización del proyecto (Hay texto de ejemplo en los ficheros)
+## Organización del proyecto
 - [**bibliografia**](https://github.com/L-51/Plantilla-de-LaTex-para-Visual-Studio-Code-VSCODE/tree/main/template/bibliografia) Aquí guardará las referencias en el fichero [ref.bib](https://github.com/L-51/Plantilla-de-LaTex-para-Visual-Studio-Code-VSCODE/blob/main/template/bibliografia/ref.bib)
 - [**config**](https://github.com/L-51/Plantilla-de-LaTex-para-Visual-Studio-Code-VSCODE/tree/main/template/config) Aquí están los [paquetes](https://github.com/L-51/Plantilla-de-LaTex-para-Visual-Studio-Code-VSCODE/tree/main/template/config/packages.tex) que usarás y [setting](https://github.com/L-51/Plantilla-de-LaTex-para-Visual-Studio-Code-VSCODE/tree/main/template/config/settings.tex) que se aplica de forma general al proyecto
 - [**secciones**](https://github.com/L-51/Plantilla-de-LaTex-para-Visual-Studio-Code-VSCODE/tree/main/template/secciones) Esta carpeta contendrá las distintas secciones que forman parte del trabajo
@@ -261,7 +267,7 @@ Si tienes poco manejo a la hora de usar GitHub para trabajar con varios usuarios
 
 ---
 <!--========================================================================================================-->
-## Colaboración
+## Contribución
 ¡Siempre son bienvenidas las contribuciones!
 Si quieres colaborar, por favor sigue estos pasos:
 1. Haz un **fork** del repositorio
@@ -286,7 +292,7 @@ Si quieres colaborar, por favor sigue estos pasos:
 
 Puedes consultar el apartado de [**Recursos adicionales**](#recursos-adicionales) donde hay un tutorial
 
-## Recursos adicionales:
+## Recursos adicionales
 - [Documentación de LaTeX Workshop](https://github.com/James-Yu/LaTeX-Workshop)
 - [Manual sencillo de LaTex](https://manualdelatex.com/tutoriales)
 - [Plantillas realizadas por LosDelGIIM](https://github.com/LosDelDGIIM/LosDelDGIIM.github.io/tree/main/subjects/_plantillas)
