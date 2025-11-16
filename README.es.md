@@ -11,16 +11,21 @@ Ideal para estudiantes, docentes, investigadores o cualquier persona que quiera 
 
 <!--==Tabla de contenido====================================================================================-->
 ## Tabla de contenido
-- [Inicio rápido](#inicio-rápido) 
-- [Instalación y configuración de LaTeX en VS Code](#instalación-y-configuración-de-latex-en-vs-code-linux)
-- [Estructura de la plantilla](#estructura-de-la-plantilla)
-- [Consejos básicos](#consejos-básicos)
-- [Opciones avanzadas(opcional)](#opciones-avanzadas)
-- [Conectar con Git y GitHub](#conectar-con-git-y-github)
-- [Organización del proyecto](#organización-del-proyecto-hay-texto-de-ejemplo-en-los-ficheros)
-- [Recomendación final](#️recomendación-final)
-- [Contribución](#contribucion)
-- [Recursos adicionales](#recursos-adicionales)
+- [Configuración y plantilla modular de LaTeX en Visual Studio Code](#configuración-y-plantilla-modular-de-latex-en-visual-studio-code)
+  - [Introducción](#introducción)
+  - [Tabla de contenido](#tabla-de-contenido)
+  - [Inicio Rápido](#inicio-rápido)
+  - [Instalación y configuración de LaTeX en VS Code (Linux)](#instalación-y-configuración-de-latex-en-vs-code-linux)
+    - [1. Visual Studio Code instalado](#1-visual-studio-code-instalado)
+    - [2. Extensión LaTeX Workshop](#2-extensión-latex-workshop)
+    - [3. Paquetes de LaTeX en Linux](#3-paquetes-de-latex-en-linux)
+  - [Estructura de la plantilla](#estructura-de-la-plantilla)
+  - [Tips(Consejos)](#tipsconsejos)
+  - [Conectar con el repositorio Git](#conectar-con-el-repositorio-git)
+  - [Organización del proyecto (Hay texto de ejemplo en los ficheros)](#organización-del-proyecto-hay-texto-de-ejemplo-en-los-ficheros)
+  - [⚠️Recomendación final:](#️recomendación-final)
+  - [Colaboración](#colaboración)
+  - [Recursos adicionales:](#recursos-adicionales)
 
 <!--==Inicio Rápido=========================================================================================-->
 ## Inicio Rápido
@@ -44,25 +49,29 @@ Si quieres usar la plantilla de inmediato, sin leer todo el tutorial:
 ## Instalación y configuración de LaTeX en VS Code (Linux)
 Ante de usar la plantilla, asegúrate de tener:
 ### 1. Visual Studio Code instalado
+<p align="right" style="padding-right: 210px;">
+  <img align="right" width="160" src="./.github/assets/LaTeX_Extension.png" alt="Extension" />
+</p>
+
 Sigue las instrucciones oficiales:
 [Instalar VSC para Linux](https://code.visualstudio.com/docs/setup/linux)
 
-<img align="right" width="100" src="./.github/assets/Extension.png" alt="Extension" />
-
 ### 2. Extensión LaTeX Workshop
-Instálala desde VS Code:
+Instálala desde VS Code:  
 `Ctrl + Shift + X` -> busca LaTeX Workshop -> Instalar
-  <p> 
-    <img src=".readme/LaTex_Workshop.png" alt="LaTex Workshop" width="600"/> 
-    <p><em>Resultado de la búsqueda LaTex Workshop</em></p> 
-  </p>
 
-- **Instalar paquetes en Linux** <br>
-  Al no usar un compilador online tenemos que instalar los paquetes necesarios de manera local por nuestra cuenta realizando `sudo apt install texlive-full -y` para los paquetes de LaTex, se puede usar el atajo `Ctrl + '` para abrir el terminal o desde el icono interactivo:
-  <p>
-    <img src=".readme/Terminal.png" alt="Terminal" width="500"/>
-    <p><em>Visualizar terminal de manera interactiva</em></p>
-  </p>
+### 3. Paquetes de LaTeX en Linux
+
+<img align="right" src="./.github/assets/Terminal.png" alt="Terminal" width="250"/>
+
+Ejecuta en la terminal:
+```bash
+sudo apt install texlive-full -y
+```
+
+Esto instala todo lo necesario para compilar localmente  
+
+Se puede usar el atajo `Ctrl + '` para abrir el terminal o desde el icono interactivo:
   
 <!--========================================================================================================-->
 ## Estructura de la plantilla
@@ -98,13 +107,13 @@ Instálala desde VS Code:
   
 - `Ctrl + S` para guardar/compilar:
   <p align="left">
-    <img src=".readme/Ctrl%2BS.png" alt="Guardar/Compilar" width="250"/>
+    <img src="./.github/assets/Ctrl%2BS.png" alt="Guardar/Compilar" width="250"/>
     <p><em>Guardar de manera interactiva</em></p>
   </p>
 
 - `Ctrl + Alt + V` para visualizar:
   <p align="left">
-    <img src=".readme/Ctrl%2BAlt%2BV.png" alt="Visualizar" width="400"/>
+    <img src="./.github/assets/Ctrl%2BAlt%2BV.png" alt="Visualizar" width="400"/>
     <p><em>Icono para visualizar</em></p>
   </p>
 
@@ -112,13 +121,13 @@ Instálala desde VS Code:
   
 - `Ctrl + Alt + X` le abrirá una ventana asociado al compilador de Latex y abajo izquierda con snippet
   <p>
-    <img src=".readme/Snippet.png" alt="Snippet" width="200"/>
+    <img src="./.github/assets/Snippet.png" alt="Snippet" width="200"/>
     <p><em>Localización de las facilidades de LaTeX</em></p>
   </p>
 
 - `Ctrl + I` para abrir **Copilot**(en caso de disposición de su extensión)
   <p>
-    <img src=".readme/Ctrl%2BI.png" alt="Inline chat" width="350"/>
+    <img src="./.github/assets/Ctrl%2BI.png" alt="Inline chat" width="350"/>
     <p><em>Iniciar una interacción con el chatbot</em></p>
   </p>
 
@@ -130,21 +139,21 @@ Instálala desde VS Code:
   </pre>
      
   <p>
-    <img src=".readme/Ctrl%2B%2C.png" alt="Configuración" width="250"/>
+    <img src="./.github/assets/Ctrl%2B%2C.png" alt="Configuración" width="250"/>
     <p><em>Localización de configuración de manera interactiva</em></p>
   </p>
   <p>
-    <img src=".readme/Edit_setting_rulers.png" alt="Rulers" width="900"/> 
+    <img src="./.github/assets/Edit_setting_rulers.png" alt="Rulers" width="900"/> 
     <p><em>Resultado de búsqueda de "rulers"</em></p>
   </p>
   <p>
-    <img src=".readme/Settings_json.png" alt="settings.json" width="900"/>
+    <img src="./.github/assets/Settings_json.png" alt="settings.json" width="900"/>
     <p><em>settings.json tras introducir las reglas</em></p>
   </p>
 
 - **(Opcional 1)** Para configurar la localización de los archivos de salida de compilación, pulse `Ctrl + ,` para abrir configuración y busque `Latex: Out Dir`, cambie la salida por una carpeta o una ruta donde quieras preservar los archivos. Una vez compilado el proyecto la salida se verá reflejado en dicha ruta(se usó [./build](https://github.com/L-51/Plantilla-de-LaTex-para-Visual-Studio-Code-VSCODE/tree/main/template/build) de ejemplo). Para esta parte es recomendable que se use un fichero [`.gitignore`](https://github.com/L-51/Plantilla-de-LaTex-para-Visual-Studio-Code-VSCODE/blob/main/template/.gitignore) para que no se guarde archivos que no le interese en el repositorio. En comparación a **Opcional 2** como se indica abajo, hay una carpeta de más, pero a la hora de compilación es más **rápido** ya que mantiene los archivos de compilación, aunque ocupe más espacio
   <p>
-    <img src=".readme/Out_dir.png" alt="Out dir" width="1000"/>
+    <img src="./.github/assets/Out_dir.png" alt="Out dir" width="1000"/>
     <p><em>Ejemplo de establecer la salida en <a href="https://github.com/L-51/Plantilla-de-LaTex-para-Visual-Studio-Code-VSCODE/tree/main/template/build">./build</a></em></p>
   </p>
   
@@ -159,15 +168,15 @@ Instálala desde VS Code:
   - `onSucceeded` limpia solo si **compilación fue exitosa**
   - `never` limpia solo cuando lanza el comando **LaTeX Workshop: Clean up auxiliary files** (lo puedes buscar con `Ctrl+Shift+P`)
 <p>
-  <img src=".readme/autoBuild.png" alt="AutoBuild Run" width="750"/>
+  <img src="./.github/assets/autoBuild.png" alt="AutoBuild Run" width="750"/>
   <p><em>Resultado de la búsqueda</em></p>
 </p>
 <p>
-  <img src=".readme/autoClean.png" alt="AutoBuild Run" width="750"/>
+  <img src="./.github/assets/autoClean.png" alt="AutoBuild Run" width="750"/>
   <p><em>Resultado de la búsqueda</em></p>
 </p>
 <p>
-  <img src=".readme/setting_json_alt.png" alt="AutoBuild Run" width="550"/>
+  <img src="./.github/assets/setting_json_alt.png" alt="AutoBuild Run" width="550"/>
   <p><em>settings.json tras elegir el modo</em></p>
 </p>
 
@@ -208,11 +217,11 @@ Instálala desde VS Code:
   </pre>
   <p><em>Con opción de onSave y onBuilt, eliminando todos los archivos de compilación</em></p>
   <p>
-    <img src="./.readme/CleanFileTypes.png" alt="CleanFileTypes" width="450"/>
+    <img src="././.github/assets/CleanFileTypes.png" alt="CleanFileTypes" width="450"/>
     <p><em>Resultado de búsqueda y añadir parámetros de forma interactiva</em></p>
   </p>
   <p>
-    <img src="./.readme/CleanMethod.png" alt="CleanMethod" width="450"/>
+    <img src="././.github/assets/CleanMethod.png" alt="CleanMethod" width="450"/>
     <p><em>Elegir el método de limpieza de forma interactiva</em></p>
   </p>
 <!--========================================================================================================-->
@@ -228,16 +237,16 @@ Instálala desde VS Code:
 6. Abre la carpeta usando **Open Folder** de VSC o la carpeta que te interesa para realizar _click derecho_ -> _abrir con_ -> escribir **code** -> _Enter_
 7. Para guardar los cambios en **Git** o para sincronizar con el repositorio vayase al apartado de **Source Control** o mediante atajo `Ctrl + Shift + G`, donde podrá realizar un **commit**, para recibir cambios del repositorio **pull**, o modificar el respositorio mediante **push**, en su defecto, a la hora de hacer **commit**, se puede desplegar a la derecha y emplear **Commit & Push** o **Commit & Pull**.
 <p>
-  <img src=".readme/Source_Control.png" alt="Source Control" width="300"/>
+  <img src="./.github/assets/Source_Control.png" alt="Source Control" width="300"/>
 </p>
 <p>
-  <img src=".readme/Simbolo_pull.png" alt="Pull" width="350"/>
+  <img src="./.github/assets/Simbolo_pull.png" alt="Pull" width="350"/>
 </p>
 <p>
-  <img src=".readme/Simbolo_push.png" alt="Push" width="350"/>
+  <img src="./.github/assets/Simbolo_push.png" alt="Push" width="350"/>
 </p>
 <p>
-  <img src=".readme/Commit%26.png" alt="Commit &" width="400"/>
+  <img src="./.github/assets/Commit%26.png" alt="Commit &" width="400"/>
 </p>
 <!--========================================================================================================-->
 
