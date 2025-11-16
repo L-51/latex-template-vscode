@@ -57,7 +57,7 @@ Sigue las instrucciones oficiales:
 Instálala desde VS Code:  
 `Ctrl + Shift + X` -> busca LaTeX Workshop -> Instalar
 
-<img alight="left" width="220" src="./.github/assets/LaTeX_Extension.png" alt="Extension" />
+<img alight="left" width="250" src="./.github/assets/LaTeX_Extension.png" alt="Extension" />
 
 <img align="right" src="./.github/assets/Terminal.png" alt="Terminal" width="305"/>
 
