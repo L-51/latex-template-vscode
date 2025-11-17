@@ -11,15 +11,14 @@ Ideal para estudiantes, docentes, investigadores o cualquier persona que quiera 
 
 <!--==Tabla de contenido====================================================================================-->
 ## Tabla de contenido
-- [Configuración y plantilla modular de LaTeX en Visual Studio Code](#configuración-y-plantilla-modular-de-latex-en-visual-studio-code)
-  - [Introducción](#introducción)
-  - [Tabla de contenido](#tabla-de-contenido)
-  - [Requisito previo](#requisito-previo)
-  - [Inicio Rápido](#inicio-rápido)
-  - [Estructura de la plantilla](#estructura-de-la-plantilla)
-  - [Organización del proyecto](#organización-del-proyecto)
-  - [Siguientes pasos](#siguientes-pasos)
-    - [Material adicionales](#material-adicionales)
+- [Introducción](#introducción)
+- [Tabla de contenido](#tabla-de-contenido)
+- [Requisito previo](#requisito-previo)
+- [Inicio Rápido](#inicio-rápido)
+- [Estructura de la plantilla](#estructura-de-la-plantilla)
+- [Organización del proyecto](#organización-del-proyecto)
+- [Siguientes pasos](#siguientes-pasos)
+- [Material adicionales](#material-adicionales)
 
 <!--==Requisito previo======================================================================================-->
 ## Requisito previo
