@@ -132,6 +132,7 @@ En caso de querer usarlo, instalar ./..**Github Copilot** y ./..**Github Copilot
 Para conectar con su cuenta de estudiante, sería ir al apartado de su perfil -> `setting` -> `Emails` y añadir tu cuenta de estudiante
 
 ## ⚠️ Trabajando de forma cooperativo
-Si tienes **poco** manejo a la hora de usa./..r GitHub para trabajar con varios usuarios, pensando de cara a una mayor comodidad, se **recomienda separar de forma explícita los ficheros** donde trabajarán cada uno de ellos, y **evitar en la medida de lo posible modificar ficheros no correspondido** de forma accidental.
+> [!WARNING]
+> Si tienes **poco** manejo a la hora de usar GitHub para trabajar con varios usuarios, pensando de cara a una mayor comodidad, se **recomienda separar de forma explícita los ficheros** donde trabajarán cada uno de ellos, y **evitar en la medida de lo posible modificar ficheros no correspondido** de forma accidental.
 
 [**(🔙README)**](/README.es.md#requisito-previo)
