@@ -30,12 +30,11 @@ sudo apt install texlive-full -y
 <summary> <b>Windows</b> </summary>
 
 ### Windows
-Descarga [**MiKTeX**](https://miktex.org/download) desde su página web oficial.  
+1. Descarga [**MiKTeX**](https://miktex.org/download) desde su página web oficial.  
 
-> [!NOTE]  
-> Durante la instalación, activa: `Install missing packages on-the-fly` para que cuando falte un paquete de LaTeX, MiKTeX lo descargará e instalará automáticamente en el momento en que lo necesites.
+2. Durante la instalación, activa: `Install missing packages on-the-fly` para que cuando falte un paquete de LaTeX, MiKTeX lo descargará e instalará automáticamente en el momento en que lo necesites.
 
-Posteriormente reinicia VS Code.
+3. Posteriormente reinicia VS Code.
 
 </details>
 
