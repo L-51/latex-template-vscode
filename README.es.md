@@ -13,24 +13,14 @@ Ideal para **estudiantes, docentes, investigadores o cualquier persona** que qui
 
 <!--==Tabla de contenido====================================================================================-->
 ## Tabla de contenido
-- [Configuración y plantilla modular de LaTeX en Visual Studio Code](#configuración-y-plantilla-modular-de-latex-en-visual-studio-code)
-  - [Introducción](#introducción)
-  - [Tabla de contenido](#tabla-de-contenido)
-  - [Requisito previo](#requisito-previo)
-  - [Inicio Rápido](#inicio-rápido)
-  - [Usar esta plantilla en tu propio proyecto](#usar-esta-plantilla-en-tu-propio-proyecto)
-  - [Estructura de la plantilla](#estructura-de-la-plantilla)
-      - [**bibliography**](#bibliography)
-      - [**build**](#build)
-      - [**config**](#config)
-      - [**files**](#files)
-      - [**images**](#images)
-      - [**main.tex**](#maintex)
-      - [**sections**](#sections)
-      - [**title\_pages**](#title_pages)
-      - [**.gitignore**](#gitignore)
-  - [Siguientes pasos](#siguientes-pasos)
-    - [Material adicionales](#material-adicionales)
+- [Introducción](#introducción)
+- [Tabla de contenido](#tabla-de-contenido)
+- [Requisito previo](#requisito-previo)
+- [Inicio Rápido](#inicio-rápido)
+- [Usar esta plantilla en tu propio proyecto](#usar-esta-plantilla-en-tu-propio-proyecto)
+- [Estructura de la plantilla](#estructura-de-la-plantilla)
+- [Siguientes pasos](#siguientes-pasos)
+- [Material adicionales](#material-adicionales)
 
 [**(🔙README)**](/README.md)
 <!--==Requisito previo======================================================================================-->
