@@ -1,5 +1,5 @@
 # Instalación y configuración de LaTeX en VS Code
-## 1. Visual Studio Code instalado
+## 1. Instalar VS Code
 
 <img align="right" width="250" src="/.github/assets/readme/intro/LaTeX_Extension.png" alt="Extension" />
 

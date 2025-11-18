@@ -41,7 +41,7 @@ Ideal para **estudiantes, docentes, investigadores o cualquier persona** que qui
 
 <!--==Inicio Rápido=========================================================================================-->
 ## Inicio Rápido
-1. **Clona el repositorio** con `git`([**guía sobre Git**](./docs/vscode-related-tutorial/translation/git-guide-with-vscode.es.md)), 
+1. **Clona el repositorio** con `git`([**guía sobre Git**](/docs/vscode-related-tutorial/translation/git-guide-with-vscode.es.md)), 
    o descarga el zip [**template.zip**](https://github.com/L-51/Plantilla-LaTex-para-VSCode/releases)
 2. Abre la carpeta en **Visual Studio Code**
 3. Instala la extensión **LaTeX Workshop** (si no la tienes)

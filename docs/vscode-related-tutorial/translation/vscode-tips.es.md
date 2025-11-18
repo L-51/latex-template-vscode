@@ -97,7 +97,7 @@ Ctrl + ,
 ## Mejora visual (reglas en 80 columnas)
 
 
-Vamos a [settings](#ajuste-de-vs-code), escribimos en la barra de búsqueda **rulers**:
+Vamos a [settings](#settings), escribimos en la barra de búsqueda **rulers**:
 <table>
 <tr>
 <td align="center">
