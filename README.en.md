@@ -11,25 +11,14 @@ Ideal for **students, teachers, researchers, or anyone** who wants to write LaTe
 
 <!--==Table of content======================================================================================-->
 ## Table of Contents
-- [LaTeX Modular Template and Configuration in Visual Studio Code](#latex-modular-template-and-configuration-in-visual-studio-code)
-  - [Introduction](#introduction)
-  - [Table of Contents](#table-of-contents)
-  - [Prerequisite](#prerequisite)
-  - [Quick Start](#quick-start)
-  - [Using this template for your own projects](#using-this-template-for-your-own-projects)
-  - [Template Structure](#template-structure)
-      - [**bibliography**](#bibliography)
-      - [**build**](#build)
-      - [**config**](#config)
-      - [**files**](#files)
-      - [**images**](#images)
-      - [**main.tex**](#maintex)
-      - [**sections**](#sections)
-      - [**title\_pages**](#title_pages)
-      - [**.gitignore**](#gitignore)
-      - [**.vscode**](#vscode)
-  - [Next Steps](#next-steps)
-    - [Additional Material](#additional-material)
+- [Introduction](#introduction)
+- [Table of Contents](#table-of-contents)
+- [Prerequisite](#prerequisite)
+- [Quick Start](#quick-start)
+- [Using this template for your own projects](#using-this-template-for-your-own-projects)
+- [Template Structure](#template-structure)
+- [Next Steps](#next-steps)
+- [Additional Material](#additional-material)
   
 [**(🔙README)**](/README.md)
 <!--==Prerequisite==========================================================================================-->
