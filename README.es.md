@@ -3,21 +3,30 @@
 <!--==Introducción==========================================================================================-->
 ## Introducción
 Este tutorial te eseña como configurar paso a paso **Visual Studio Code** para usar LaTeX junto con una plantilla de **estructura modular** pensada para poder trabajar cómodamente, con:
-- configuración automática
-- compilación local (offline)
-- organización del proyecto por carpetas
-- compatibilidad completa con LaTeX Workshop
-Ideal para estudiantes, docentes, investigadores o cualquier persona que quiera escribir en LaTeX desde VS Code de forma rápida y ordenada.
+- configuración **automática**
+- compilación **local (offline)**
+- organización **modular** del proyecto por carpetas
+- compatibilidad completa con _LaTeX Workshop_
+Ideal para **estudiantes, docentes, investigadores o cualquier persona** que quiera escribir en LaTeX desde VS Code de forma rápida y ordenada.
 
 <!--==Tabla de contenido====================================================================================-->
 ## Tabla de contenido
-- [Introducción](#introducción)
-- [Tabla de contenido](#tabla-de-contenido)
-- [Requisito previo](#requisito-previo)
-- [Inicio Rápido](#inicio-rápido)
-- [Estructura de la plantilla](#estructura-de-la-plantilla)
-- [Siguientes pasos](#siguientes-pasos)
-- [Material adicionales](#material-adicionales)
+- [Configuración y plantilla modular de LaTeX en Visual Studio Code](#configuración-y-plantilla-modular-de-latex-en-visual-studio-code)
+  - [Introducción](#introducción)
+  - [Tabla de contenido](#tabla-de-contenido)
+  - [Requisito previo](#requisito-previo)
+  - [Inicio Rápido](#inicio-rápido)
+  - [Estructura de la plantilla](#estructura-de-la-plantilla)
+      - [**bibliography**](#bibliography)
+      - [**build**](#build)
+      - [**config**](#config)
+      - [**images**](#images)
+      - [**main.tex**](#maintex)
+      - [**sections**](#sections)
+      - [**title\_pages**](#title_pages)
+      - [**.gitignore**](#gitignore)
+  - [Siguientes pasos](#siguientes-pasos)
+    - [Material adicionales](#material-adicionales)
 
 <!--==Requisito previo======================================================================================-->
 ## Requisito previo
@@ -28,14 +37,8 @@ Ideal para estudiantes, docentes, investigadores o cualquier persona que quiera 
 > En caso de faltar algún requisito, pulse [aquí](/docs/vscode-related-tutorial/translation/setup.es.md).
 <!--==Inicio Rápido=========================================================================================-->
 ## Inicio Rápido
-1. **Clona el repositorio**
-   ```bash
-     git clone https://github.com/L-51/Plantilla-LaTex-para-VSCode.git
-   ```
-   o con **SSH**:
-   ```bash
-     git clone git@github.com:L-51/Plantilla-LaTex-para-VSCode.git
-   ```
+1. **Clona el repositorio** con `git`([**guía sobre Git**](./docs/vscode-related-tutorial/translation/git-guide-with-vscode.es.md)), 
+   o descarga el zip [**template.zip**](https://github.com/L-51/Plantilla-LaTex-para-VSCode/releases)
 2. Abre la carpeta en **Visual Studio Code**
 3. Instala la extensión **LaTeX Workshop** (si no la tienes)
 4. Abre `main.tex` para localizar el main
@@ -85,9 +88,14 @@ Ideal para estudiantes, docentes, investigadores o cualquier persona que quiera 
 
 <!--==Siguientes pasos======================================================================================-->
 ## Siguientes pasos
-- Si quieres aprender y empezar a usar **Git** y conocer sobre las herramientas _GUI_ que ofrece **VS Code**, te recomiendo que mires esta [**guía sobre Git con VS Code**](./docs/vscode-related-tutorial/translation/git-guide-with-vscode.es.md)
-- Si quieres saber unos **atajos y consejos básicos**, mira este [**documento**](./docs/vscode-related-tutorial/translation/vscode-tips.es.md) para agilizar y facilitar el uso de LaTeX en VS Code
-- Posteriormente si aún quieres profundizar más sobre **configuraciones** y controlar de forma más profesional LaTeX, te sugiero mirar estos [consejos avanzados](./docs/vscode-related-tutorial/translation/advanced.es.md).
+> [!TIP]
+>  Si quieres aprender y empezar a usar **Git** y conocer sobre las herramientas _GUI_ que ofrece **VS Code**, te recomiendo que mires esta [**guía sobre Git con VS Code**](./docs/vscode-related-tutorial/translation/git-guide-with-vscode.es.md)
+
+> [!TIP]
+>  Si quieres saber unos **atajos y consejos básicos** para agilizar y facilitar el uso de LaTeX en VS Code, mira este [**documento de configuraciones y atajos básicos**](./docs/vscode-related-tutorial/translation/vscode-tips.es.md).
+
+> [!TIP]
+> Posteriormente si aún quieres profundizar más sobre **configuraciones** y controlar de forma más profesional LaTeX, te sugiero mirar estos [**consejos avanzados**](./docs/vscode-related-tutorial/translation/advanced.es.md).
 
 <!--==Material adicional====================================================================================-->
 ### [Material adicionales](./docs/additional-material/additional-material.es.md)
