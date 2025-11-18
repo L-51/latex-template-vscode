@@ -41,4 +41,4 @@ Colecciones de emblemas para hacer tu repositorio más visual.
 Permite crear emblemas personalizados para tu repositorio.
 > Útil si quieres añadir un toque personal.
 
-[**(🔙README)**](../../README.es.md#requisito-previo)
+[**(🔙README)**](/README.es.md#tabla-de-contenido)

@@ -53,23 +53,23 @@ Ideal for **students, teachers, researchers, or anyone** who wants to write LaTe
 <!--==Template structure====================================================================================-->
 ## Template Structure
 <pre>
-📁template
-├── 📁bibliography
+📁<a href="">template</a>
+├── 📁<a href="">bibliography</a>
 │   └── 📚ref.bib
-├── 📁config
+├── 📁<a href="">config</a>
 │   ├── 📄packages.tex
 │   └── ⚙️settings.tex
-├── 📁files
+├── 📁<a href="">files</a>
 │   └── 📄example.cpp
-├── 📄.gitignore
-├── 📁images
+├── 📄<a href="">.gitignore</a>
+├── 📁<a href="">images</a>
 │   └── 🖼️Example.png
-├── 📄main.tex
-├── 📁sections
+├── 📄<a href="">main.tex</a>
+├── 📁<a href="">sections</a>
 │   ├── 📄section_1.tex
 │   ├── 📄section_2.tex
 │   └── 📄section_3.tex
-└── 📁title_pages
+└── 📁<a href="">title_pages</a>
     └── 📄example_title_page.tex
 </pre>
 
@@ -77,7 +77,7 @@ Ideal for **students, teachers, researchers, or anyone** who wants to write LaTe
 > Folder that stores references and bibliographies in the file [ref.bib](/template/bibliografia/ref.bib).
 
 #### [**build**](/template/build/)
-> Folder for compilation output files. Recommended for keeping things clean. To configure it, click [here](/docs/vscode-related-tutorial/translation/advanced.es.md#compilation-output-configuration).
+> Folder for compilation output files. Recommended for keeping things clean. To configure it, click [here](/docs/vscode-related-tutorial/advanced.md#compilation-output-configuration).
 
 #### [**config**](/template/config/)
 > Contains the [packages](/template/config/packages.tex) used in *packages.tex* and the [settings](/template/config/settings.tex) in *settings.tex*, which apply globally to the project.
@@ -103,13 +103,13 @@ Ideal for **students, teachers, researchers, or anyone** who wants to write LaTe
 <!--==Next Steps============================================================================================-->
 ## Next Steps
 > [!TIP]  
-> If you want to learn and start using **Git** and explore the GUI tools offered by **VS Code**, I recommend this [**Git guide with VS Code**](./docs/vscode-related-tutorial/translation/git-guide-with-vscode.md).
+> If you want to learn and start using **Git** and explore the GUI tools offered by **VS Code**, I recommend this [**Git guide with VS Code**](/docs/vscode-related-tutorial/git-guide-with-vscode.md).
 
 > [!TIP]  
-> If you want to learn **basic shortcuts and settings** to speed up using LaTeX in VS Code, check this [**basic configuration and shortcuts document**](./docs/vscode-related-tutorial/translation/vscode-tips.md).
+> If you want to learn **basic shortcuts and settings** to speed up using LaTeX in VS Code, check this [**basic configuration and shortcuts document**](/docs/vscode-related-tutorial/vscode-tips.md).
 
 > [!TIP]  
-> If you want to go deeper into **configuration** and manage LaTeX more professionally, I suggest this [**advanced tips guide**](./docs/vscode-related-tutorial/translation/advanced.md).
+> If you want to go deeper into **configuration** and manage LaTeX more professionally, I suggest this [**advanced tips guide**](/docs/vscode-related-tutorial/advanced.md).
 
 ### [Additional Material](/docs/additional-material/additional-material.md)
 

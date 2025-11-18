@@ -50,16 +50,16 @@
 ## Contribution / Contribución
 **English**  
 Contributions are welcome!  
-Please read the [contribution guidelines](.github/CONTRIBUTING.md) before submitting a pull request.
+Please read the [**contribution guidelines**](/.github/CONTRIBUTING.md) before submitting a pull request.
 
 **Español**  
 ¡Las contribuciones son bienvenidas!  
-Por favor, lean las [pautas de contribución](.github/CONTRIBUTING.es.md) antes de enviar un pull request.
+Por favor, lean las [**pautas de contribución**](/.github/CONTRIBUTING.es.md) antes de enviar un pull request.
 
 > If you feel this repository useful, don't forget to leave a ⭐!  
 > Si te resulta útil este repositorio, ¡no olvides dejar una ⭐!
 
 <!--==License============================================================================================-->
 ## License
-<p><em>This project is licensed under the <a href="https://github.com/L-51/Plantilla-LaTex-para-VSCode/blob/docs/LICENSE" target="_blank">MIT</a></em></p>
-<p><em>Este proyecto esta licenciado bajo <a href="https://github.com/L-51/Plantilla-LaTex-para-VSCode/blob/docs/LICENSE" target="_blank">MIT</a></em></p>
+_This project is licensed under the [MIT](/LICENSE)_  
+_Este proyecto esta licenciado bajo [MIT](/LICENSE)_

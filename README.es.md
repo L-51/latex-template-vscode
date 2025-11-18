@@ -53,23 +53,23 @@ Ideal para **estudiantes, docentes, investigadores o cualquier persona** que qui
 <!--==Estructura de la plantilla============================================================================-->
 ## Estructura de la plantilla
 <pre>
-📁template
-├── 📁bibliography
+📁<a href="">template</a>
+├── 📁<a href="">bibliography</a>
 │   └── 📚ref.bib
-├── 📁config
+├── 📁<a href="">config</a>
 │   ├── 📄packages.tex
 │   └── ⚙️settings.tex
-├── 📁files
+├── 📁<a href="">files</a>
 │   └── 📄example.cpp
-├── 📄.gitignore
-├── 📁images
+├── 📄<a href="">.gitignore</a>
+├── 📁<a href="">images</a>
 │   └── 🖼️Example.png
-├── 📄main.tex
-├── 📁sections
+├── 📄<a href="">main.tex</a>
+├── 📁<a href="">sections</a>
 │   ├── 📄section_1.tex
 │   ├── 📄section_2.tex
 │   └── 📄section_3.tex
-└── 📁title_pages
+└── 📁<a href="">title_pages</a>
     └── 📄example_title_page.tex
 </pre>
 

@@ -40,7 +40,9 @@ git clone git@github.com:L-51/Plantilla-LaTex-para-VSCode.git
 O descarga el zip [**template.zip**](https://github.com/L-51/Plantilla-LaTex-para-VSCode/releases) en **Release** y descomprímelo.
 
 ## 3. Accede a la carpeta 
-Usando _File_ -> **Open Folder** de VSC, o _clic derecho_ sobre la **carpeta template** -> _abrir con_ -> **VS Code**, o vía terminal (si dispones de ella):
+Usando _File_ -> **Open Folder** de VSC,  
+o _clic derecho_ sobre la **carpeta template** -> _abrir con_ -> **VS Code**,  
+o vía terminal (si dispones de ella):
 
 <pre>
 cd Plantilla-LaTex-para-VSCode
@@ -50,7 +52,9 @@ code template
 <img align="right" width="250" src="/.github/assets/readme/git/Source_Control.png" alt="Source_Control" />
 
 ## 4. Utilización de Source Control
-Para inicializar un repositorio con **Git** o un **repositorio remoto**, puedes hacerlo vía terminal como indica este [tutorial](https://docs.github.com/es/get-started/git-basics/about-remote-repositories), o mediante la herramienta GUI de VS Code: **Source Control** (`Ctrl + Shift + G`).
+Para inicializar un repositorio con **Git** o un **repositorio remoto**, puedes hacerlo vía terminal como indica este [tutorial](https://docs.github.com/es/get-started/git-basics/about-remote-repositories),  
+o mediante la herramienta GUI de VS Code: **Source Control** (`Ctrl + Shift + G`).
+
 <img align="left" width="300" src="/.github/assets/readme/git/Pull_Push_Combined.png" alt="Pull_Push_Combined" />
 
 Una vez iniciado el repositorio, podrás realizar **commits** desde **Source Control**.  

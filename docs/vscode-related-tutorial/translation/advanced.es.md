@@ -28,7 +28,6 @@ También se puede configurar manualmente en [**settings.json**](/docs/vscode-rel
 "latex-workshop.latex.autoBuild.run": "onSave",
 "latex-workshop.latex.autoClean.run": "never",
 </pre>
-Siendo en este ejemplo, la opción `onSave` para autoBuild y `never` para autoClean.
 
 ## Eliminar archivos auxiliares
 Para mantener solo `main.pdf`, ve a settings -> `Clean: File Types` y define qué archivos se deben borrar.
@@ -40,8 +39,6 @@ Luego en settings -> `Clean: Method` puedes elegir:
 - `command`: elimina según lo definido en `Clean: Command`
 
 <img width="400" src="/.github/assets/readme/advanced/cleanMethod.png">
-
-En nuestro caso, elegimos la opción **glob** o en su efecto añadiendo al archivo [**settings.json**](./vscode-tips.es.md#mejora-visual-reglas-en-80-columnas) añadir al final de ella.  
 
 Ejemplo de configuración completa:
 <pre>
@@ -79,7 +76,8 @@ Ejemplo de configuración completa:
 "latex-workshop.latex.clean.method": "glob",
 </pre>
 
-Ten en cuenta que, a cambio de **limpieza**, obtienes la **desventaja de tiempo**: al guardar, debe **recompilarse todo** desde cero, lo que ralentiza la previsualización.
+> [!NOTE]
+> Ten en cuenta que, a cambio de **limpieza**, obtienes la **desventaja de tiempo**: al guardar, debe **recompilarse todo** desde cero, lo que ralentiza la previsualización.
 
 ## Creación de Snippets propios
 
@@ -113,4 +111,4 @@ Ejemplo de snippet:
 - `$i`: posición del cursor tras insertar (se avanza con Tab)  
 - `"description"` descripción opcional
 
-[**(🔙README)**](/README.es.md#requisito-previo)
+[**(🔙README)**](/README.es.md#tabla-de-contenido)
