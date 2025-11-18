@@ -11,14 +11,25 @@ Ideal for **students, teachers, researchers, or anyone** who wants to write LaTe
 
 <!--==Table of content======================================================================================-->
 ## Table of Contents
-- [Introduction](#introduction)
-- [Table of Contents](#table-of-contents)
-- [Prerequisite](#prerequisite)
-- [Quick Start](#quick-start)
-- [Using this template for your own projects](#using-this-template-for-your-own-projects)
-- [Template Structure](#template-structure)
-- [Next Steps](#next-steps)
-- [Additional Material](#additional-material)
+- [LaTeX Modular Template and Configuration in Visual Studio Code](#latex-modular-template-and-configuration-in-visual-studio-code)
+  - [Introduction](#introduction)
+  - [Table of Contents](#table-of-contents)
+  - [Prerequisite](#prerequisite)
+  - [Quick Start](#quick-start)
+  - [Using this template for your own projects](#using-this-template-for-your-own-projects)
+  - [Template Structure](#template-structure)
+      - [**bibliography**](#bibliography)
+      - [**build**](#build)
+      - [**config**](#config)
+      - [**files**](#files)
+      - [**images**](#images)
+      - [**main.tex**](#maintex)
+      - [**sections**](#sections)
+      - [**title\_pages**](#title_pages)
+      - [**.gitignore**](#gitignore)
+      - [**.vscode**](#vscode)
+  - [Next Steps](#next-steps)
+    - [Additional Material](#additional-material)
   
 [**(🔙README)**](/README.md)
 <!--==Prerequisite==========================================================================================-->
@@ -34,7 +45,7 @@ Ideal for **students, teachers, researchers, or anyone** who wants to write LaTe
 ## Quick Start
 1. **Clone the repository** using `git` ([**Git guide**](/docs/vscode-related-tutorial/git-guide-with-vscode.md)),  
    or download the zip [**template.zip**](https://github.com/L-51/latex-template-vscode/releases)
-2. Open the folder in **Visual Studio Code**
+2. Open the **template** folder in **Visual Studio Code**
 3. Install the **LaTeX Workshop** extension (if you haven’t already)
 4. Open `main.tex` to locate the main file
 5. Press `Ctrl + S` to compile
@@ -82,8 +93,10 @@ If you want to create your **own customized template**, the recommended way is:
 │   ├── 📄section_1.tex
 │   ├── 📄section_2.tex
 │   └── 📄section_3.tex
-└── 📁<a href="https://github.com/L-51/latex-template-vscode/tree/main/template/title_pages">title_pages</a>
-    └── 📄example_title_page.tex
+├── 📁<a href="https://github.com/L-51/latex-template-vscode/tree/main/template/title_pages">title_pages</a>
+│   └── 📄example_title_page.tex
+└── 📁<a href="https://github.com/L-51/latex-template-vscode/tree/main/template/.vscode">.vscode</a>
+    └── 📄latex.code-snippets
 </pre>
 
 #### [**bibliography**](/template/bibliography/)
@@ -113,6 +126,8 @@ If you want to create your **own customized template**, the recommended way is:
 #### [**.gitignore**](/template/.gitignore)
 > A `.gitignore` file is included to exclude files from version control. This version ignores compilation files if you configured **build** as the output directory and keeps only **main.pdf**. In the [Git resource list](/docs/additional-material/additional-material.md#useful-links-about-git), a tutorial on this topic is included.
 
+#### [**.vscode**](/template/.vscode)
+> Folder containing **local** VS Code configurations. In this case, it includes the file [latex.code-snippets](/template/.vscode/latex.code-snippets) for snippets.
 <!--==Next Steps============================================================================================-->
 ## Next Steps
 > [!TIP]  

@@ -1,41 +1,42 @@
-% Idioma y codificación
-\usepackage[spanish]{babel}
-\usepackage[utf8]{inputenc}              % Codificación de entrada (UTF-8)
-\usepackage[T1]{fontenc}                 % Codificación de salida
+% Language and encoding
+\usepackage[english]{babel}
+\usepackage[utf8]{inputenc}              % Input encoding (UTF-8)
+\usepackage[T1]{fontenc}                 % Output encoding
 
 \usepackage{setspace}
 \usepackage{tikz}
 \usetikzlibrary{positioning} 
 
-% Bibliografía con Biber
+% Bibliography with Biber
 \usepackage[backend=biber]{biblatex}     
 
-% Gráficos e imágenes
+% Graphics and images
 \usepackage{graphicx}                    
-\graphicspath{{./images/}}               % Carpeta de imágenes
+\graphicspath{{./images/}}               % Path for images
+\usepackage{pgfplots}                    % Graphics
 
-% Matemáticas
+% Mathematics
 \usepackage{amsmath, amssymb, amsthm}            
 
-% Formato del documento
-\usepackage{parskip}                     % Espacio entre párrafos
+% Document formatting
+\usepackage{parskip}                     % Space between paragraphs
 \usepackage[a4paper,top=2cm,bottom=2cm,left=2cm,right=3cm,marginparwidth=1.75cm]{geometry}
 \geometry{margin=1in}
 
-% Listados y enumeraciones
-\usepackage{enumitem}                    % Personalizar listas
-\usepackage{listings}                    % Código fuente
+% Lists and enumerations
+\usepackage{enumitem}                    % Customize lists
+\usepackage{listings}                    % Source code
 
-% Hiperenlaces y colores
+% Hyperlinks and colors
 \usepackage[dvipsnames]{xcolor}          
-\usepackage[colorlinks=true,allcolors=blue]{hyperref}  % Enlaces en el documento
+\usepackage[colorlinks=true,allcolors=blue]{hyperref}  % Links in the document
 
-% Citas y comillas
+% Citations and quotes
 \usepackage{csquotes}
 
-% Índice alfabético
+% Alphabetical index
 \usepackage{imakeidx}                   
-\makeindex[columns=3, title=Índice alfabético]
+\makeindex[columns=3, title=Alphabetical Index]
 
-% Posicionamiento de elementos flotantes
+% Floating element positioning
 \usepackage{float}

@@ -13,14 +13,25 @@ Ideal para **estudiantes, docentes, investigadores o cualquier persona** que qui
 
 <!--==Tabla de contenido====================================================================================-->
 ## Tabla de contenido
-- [Introducción](#introducción)
-- [Tabla de contenido](#tabla-de-contenido)
-- [Requisito previo](#requisito-previo)
-- [Inicio Rápido](#inicio-rápido)
-- [Usar esta plantilla en tu propio proyecto](#usar-esta-plantilla-en-tu-propio-proyecto)
-- [Estructura de la plantilla](#estructura-de-la-plantilla)
-- [Siguientes pasos](#siguientes-pasos)
-- [Material adicionales](#material-adicionales)
+- [Configuración y plantilla modular de LaTeX en Visual Studio Code](#configuración-y-plantilla-modular-de-latex-en-visual-studio-code)
+  - [Introducción](#introducción)
+  - [Tabla de contenido](#tabla-de-contenido)
+  - [Requisito previo](#requisito-previo)
+  - [Inicio Rápido](#inicio-rápido)
+  - [Usar esta plantilla en tu propio proyecto](#usar-esta-plantilla-en-tu-propio-proyecto)
+  - [Estructura de la plantilla](#estructura-de-la-plantilla)
+      - [**bibliography**](#bibliography)
+      - [**build**](#build)
+      - [**config**](#config)
+      - [**files**](#files)
+      - [**images**](#images)
+      - [**main.tex**](#maintex)
+      - [**sections**](#sections)
+      - [**title\_pages**](#title_pages)
+      - [**.gitignore**](#gitignore)
+      - [**.vscode**](#vscode)
+  - [Siguientes pasos](#siguientes-pasos)
+    - [Material adicionales](#material-adicionales)
 
 [**(🔙README)**](/README.md)
 <!--==Requisito previo======================================================================================-->
@@ -35,7 +46,7 @@ Ideal para **estudiantes, docentes, investigadores o cualquier persona** que qui
 ## Inicio Rápido
 1. **Clona el repositorio** con `git`([**guía sobre Git**](/docs/vscode-related-tutorial/translation/git-guide-with-vscode.es.md)), 
    o descarga el zip [**template.zip**](https://github.com/L-51/latex-template-vscode/releases)
-2. Abre la carpeta en **Visual Studio Code**
+2. Abre la carpeta **template** en **Visual Studio Code**
 3. Instala la extensión **LaTeX Workshop** (si no la tienes)
 4. Abre `main.tex` para localizar el main
 5. `Ctrl + S` para compilar
@@ -81,8 +92,10 @@ Si quieres crear tu **propia plantilla personalizada**, la forma recomendada es:
 │   ├── 📄section_1.tex
 │   ├── 📄section_2.tex
 │   └── 📄section_3.tex
-└── 📁<a href="https://github.com/L-51/latex-template-vscode/tree/main/template/title_pages">title_pages</a>
-    └── 📄example_title_page.tex
+├── 📁<a href="https://github.com/L-51/latex-template-vscode/tree/main/template/title_pages">title_pages</a>
+│   └── 📄example_title_page.tex
+└── 📁<a href="https://github.com/L-51/latex-template-vscode/tree/main/template/.vscode">.vscode</a>
+    └── 📄latex.code-snippets
 </pre>
 
 #### [**bibliography**](/template/bibliography/)
@@ -113,6 +126,8 @@ Si quieres crear tu **propia plantilla personalizada**, la forma recomendada es:
 > Se incluye un archivo `.gitignore` para no incluir archivos innecesarios en control de versiones. En este caso es una versión simple para omitir los ficheros de compilación en caso de haber configurado como salida **build** y mantener solo **main.pdf**.  
 > En la [recopilación de enlaces sobre Git](/docs/additional-material/additional-material.es.md#enlaces-útiles-sobre-git) se incluye un tutorial sobre esto.
 
+#### [**.vscode**](/template/.vscode)
+> Carpeta que contiene las **configuraciones locales** de VS Code, en este caso, está el fichero [latex.code-snippets](/template/.vscode/latex.code-snippets) para snippets.
 
 <!--==Siguientes pasos======================================================================================-->
 ## Siguientes pasos
