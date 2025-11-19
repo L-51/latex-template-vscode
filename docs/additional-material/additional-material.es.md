@@ -1,4 +1,4 @@
-# Additional information
+# Material adicional
 Aquí se adjunta enlaces que son interesantes.
 
 ## Documentación y tutoriales LaTeX
