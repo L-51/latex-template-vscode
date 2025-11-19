@@ -1,5 +1,9 @@
-# LaTeX Template + VS Code Guide
+<h1 align="center">
+  LaTeX Template + VS Code Guide
+</h1> 
 
+<div align="center">
+  
 [![License: MIT](https://custom-icon-badges.demolab.com/github/license/denvercoder1/custom-icon-badges?logo=law)](./LICENSE)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?logo=linux&logoColor=black)
 ![Windows](https://custom-icon-badges.demolab.com/badge/Windows-0078D6?logo=windows11&logoColor=white)
@@ -9,9 +13,13 @@
 [![en](https://img.shields.io/badge/lang-en-blue.svg)](README.en.md)
 [![es](https://img.shields.io/badge/lang-es-yellow.svg)](README.es.md)
 
-> LaTeX modular template and setup tutorial for Visual Studio Code
+</div>
 
-> Plantilla modular y tutorial de configuración de LaTeX en VS Code 
+<p align="center"> 
+  LaTeX modular template and setup tutorial for Visual Studio Code 
+  <br />
+  Plantilla modular y tutorial de configuración de LaTeX en VS Code 
+</p>
 
 <!--==Introduction=======================================================================================-->
 ## Introduction/Introducción
