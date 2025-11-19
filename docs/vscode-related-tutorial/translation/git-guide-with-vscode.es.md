@@ -31,13 +31,13 @@ Sigue las instrucciones del [tutorial oficial](https://git-scm.com/install/mac) 
 
 ## 2. Clona el repositorio
 ```
-git clone https://github.com/L-51/latex-template-vscode.git
+git clone https://github.com/L-51/latex-template-setup-vscode.git
 ```
 O con **SSH**
 ```
-git clone git@github.com:L-51/latex-template-vscode.git
+git clone git@github.com:L-51/latex-template-setup-vscode.git
 ```
-O descarga el zip [**template.zip**](https://github.com/L-51/latex-template-vscode/releases) en **Release** y descomprímelo.
+O descarga el zip [**template.zip**](https://github.com/L-51/latex-template-setup-vscode/releases) en **Release** y descomprímelo.
 
 ## 3. Accede a la carpeta 
 Usando _File_ -> **Open Folder** de VSC,  
@@ -45,7 +45,7 @@ o _clic derecho_ sobre la **carpeta template** -> _abrir con_ -> **VS Code**,
 o vía terminal (si dispones de ella):
 
 <pre>
-cd latex-template-vscode
+cd latex-template-setup-vscode
 code template
 </pre>
 
