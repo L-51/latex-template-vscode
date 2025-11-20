@@ -1,3 +1,4 @@
+<!-- TODO: A banner image -->
 <h1 align="center">
   LaTeX Template + VS Code Guide
 </h1> 
