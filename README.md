@@ -70,6 +70,15 @@ Por favor, lean las [**pautas de contribución**](/.github/CONTRIBUTING.es.md) a
 > If you feel this repository useful, don't forget to leave a ⭐!  
 > Si te resulta útil este repositorio, ¡no olvides dejar una ⭐!
 
+## Star History
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://app.repohistory.com/api/svg?repo=L-51/latex-template-setup-vscode&type=Date&theme=dark" >
+    <source media="(prefers-color-scheme: light)" srcset="https://app.repohistory.com/api/svg?repo=L-51/latex-template-setup-vscode&type=Date&background=ffffff&color=0969DA">
+    <img src="https://app.repohistory.com/api/svg?repo=L-51/latex-template-setup-vscode&type=Date&background=0D1117&color=f86262" alt="Star History">
+  </picture>
+</div>
+
 <!--==License============================================================================================-->
 ## License
 _This project is licensed under the [MIT](/LICENSE)_  
