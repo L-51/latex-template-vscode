@@ -80,9 +80,6 @@ Please read the [**contribution guidelines**](/.github/CONTRIBUTING.md) before s
 ¡Las contribuciones son bienvenidas!  
 Por favor, lean las [**pautas de contribución**](/.github/CONTRIBUTING.es.md) antes de enviar un pull request.
 
-> If you feel this repository useful, don't forget to leave a ⭐!  
-> Si te resulta útil este repositorio, ¡no olvides dejar una ⭐!
-
 <!--==Star History========================================================================================-->
 ## Star History
 <div align="center" href="https://www.star-history.com/#L-51/latex-template-setup-vscode&type=date&legend=top-left">
