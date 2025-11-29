@@ -82,13 +82,13 @@ Por favor, lean las [**pautas de contribución**](/.github/CONTRIBUTING.es.md) a
 
 <!--==Star History========================================================================================-->
 ## Star History
-<div align="center" href="https://www.star-history.com/#L-51/latex-template-setup-vscode&type=date&legend=top-left">
+<a align="center" href="https://www.star-history.com/#L-51/latex-template-setup-vscode&type=date&legend=top-left">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://app.repohistory.com/api/svg?repo=L-51/latex-template-setup-vscode&type=Date&background=000000&color=F54927" >
     <source media="(prefers-color-scheme: light)" srcset="https://app.repohistory.com/api/svg?repo=L-51/latex-template-setup-vscode&type=Date&background=ffffff&color=0969DA">
     <img src="https://app.repohistory.com/api/svg?repo=L-51/latex-template-setup-vscode&type=Date&background=0D1117&color=f86262" alt="Star History">
   </picture>
-</div>
+</a>
 
 <!--==License============================================================================================-->
 ## License
