@@ -12,7 +12,7 @@ Ve a settings y escribe en la barra de búsqueda `Latex: Out Dir`, y cambia la r
 Accediendo a settings, y buscar `LaTex Auto Build Run` le aparecerá un apartado donde se podrá elegir la opción de compilación:
   - `never`: compila solo al ejecutar el comando **Build LaTeX project** (`Ctrl+Alt+B`)
   - `onSave`: compila **al guardar el archivo** (`Ctrl+S`)
-  - `onFileChange`: compila cada vez que **detecta un cambio**, aunque no guardes
+  - `onFileChange`: compila cada vez que **detecta un cambio**, aunque no guardes el fichero
 
 <img align="right" width="330" src="/.github/assets/readme/advanced/autoClean.png" alt="Auto Clean">
 
